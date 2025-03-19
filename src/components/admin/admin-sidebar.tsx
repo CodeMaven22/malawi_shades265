@@ -34,52 +34,52 @@ export function AdminSidebar() {
     const navItems = [
         {
             title: "Dashboard",
-            href: "/dashboard",
+            href: "/admin/dashboard",
             icon: <LayoutDashboard className="h-5 w-5" />,
         },
         {
             title: "Accommodations",
-            href: "/accommodations",
+            href: "/admin/accommodations",
             icon: <Building2 className="h-5 w-5" />,
         },
         {
             title: "Tourism Sites",
-            href: "/tourism-sites",
+            href: "/admin/tourism-sites",
             icon: <MapPin className="h-5 w-5" />,
         },
         {
             title: "Experiences",
-            href: "/experiences",
+            href: "/admin/experiences",
             icon: <Compass className="h-5 w-5" />,
         },
         {
             title: "Users",
-            href: "/users",
+            href: "/admin/users",
             icon: <Users className="h-5 w-5" />,
         },
         {
             title: "Bookings",
-            href: "/bookings",
+            href: "/admin/bookings",
             icon: <CalendarCheck className="h-5 w-5" />,
         },
         {
             title: "Media Library",
-            href: "/media",
+            href: "/admin/media",
             icon: <ImageIcon className="h-5 w-5" />,
         },
         {
             title: "Pages",
-            href: "/pages",
+            href: "/admin/pages",
             icon: <FileText className="h-5 w-5" />,
         },
         {
             title: "Messages",
-            href: "/messages",
+            href: "/admin/messages",
             icon: <MessageSquare className="h-5 w-5" />,
         },
         {
             title: "Settings",
-            href: "/settings",
+            href: "/admin/settings",
             icon: <Settings className="h-5 w-5" />,
         },
     ]
