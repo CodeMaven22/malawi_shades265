@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import {Geist, Geist_Mono, Raleway} from "next/font/google";
 import "../globals.css";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 const raleway = Raleway({
     subsets: ["latin"],
@@ -18,10 +20,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${raleway.className} flex min-h-screen flex-col `}>
-        {children}
-      </body>
-    </html>
+      <html lang="en">
+          <body className={`${raleway.className}`}>
+              <div className=" min-h-screen bg-gray-100 flex-col ">
+                  <Header />
+                      <main className="">{children}</main>
+                  <Footer />
+              </div>
+          </body>
+      </html>
   );
 }
